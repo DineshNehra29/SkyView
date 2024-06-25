@@ -52,7 +52,7 @@ function App() {
     };
 
     useEffect(() => {
-        axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=delhi&limit=1&appid=814be36aabbc524b44b6f4052a9d870c`)
+        axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=delhi&limit=1&appid=814be36aabbc524b44b6f4052a9d870c`)
             .then((res) => {
                 console.log(res.data);
                 setGeolocation(res.data[0]); 
