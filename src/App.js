@@ -123,7 +123,7 @@ function App() {
                             <div className="weather__card">
                                 <i className="fa-solid fa-temperature-full"></i>
                                 <div>
-                                    <p>Feels Likee</p>
+                                    <p>Feels Like</p>
                                     { unit===0 && (
                             <p className="weather__realfeel">{weather.main ? weather.main.feels_like.toFixed(2) : 'no data'}&deg;C</p>)}
                             {unit===1 && (<p className="weather__realfeel">{weather.main ? (((weather.main.feels_like)*9/5)+32).toFixed(2) : 'no data'}&deg;F</p>)}
