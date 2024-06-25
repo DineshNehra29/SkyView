@@ -20,7 +20,7 @@ function App() {
 
     //const imgurl = `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
 
-    const url1 = `http://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=1&appid=814be36aabbc524b44b6f4052a9d870c`;
+    const url1 = `https://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=1&appid=814be36aabbc524b44b6f4052a9d870c`;
 
     const location = (e) => {
         if (e.key === 'Enter') {
